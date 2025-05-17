@@ -1,6 +1,6 @@
 // api/datetime.js
 
-const { DateTime } = require("luxon");
+import { DateTime } from "luxon";
 
 export default function handler(req, res) {
   const dt = DateTime.now().setZone("Africa/Algiers");
